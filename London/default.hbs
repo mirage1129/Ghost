@@ -12,48 +12,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     {{!-- Styles'n'Scripts --}}
-    <link rel="stylesheet" href="/css/mystyles.css">
-    
+    <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
+
     {{!-- This tag outputs SEO meta+structured data and other important settings --}}
     {{ghost_head}}
 
 </head>
 <body class="{{body_class}}">
-    
-<nav class="MainMenu navbar is-fixed-top">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      <img src="/assets/mrs_food_logo.svg" alt="QuikPath" height="30" />
-    </a>
-    <div class="navbar-burger burger" data-target="main-menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
 
-  <div class="navbar-menu" id="main-menu">
-    <div class="navbar-start">
-    </div>
-      
-    </div> 
-      <a class="navbar-item" href="https://www.quikpath.io/">
-        QuikPath
-      </a>
+    <div class="site-wrapper">
 
-    <div class="navbar-item">
-      <div class="field is-grouped">
-        <p class="control">
-          <a class="button header-button" href="#">
-            <span>Subscribe</span>
-          </a>
-        </p>
-      </div>
-    </div>
-</nav>
-
-
-        {{!-- <header class="site-head">
+        <header class="site-head">
             <div class="site-head-container">
                 <a class="nav-burger" href="#">
                     <div class="hamburger hamburger--collapse" aria-label="Menu" role="button" aria-controls="navigation">
@@ -84,7 +53,7 @@
                     </div>
                 </div>
             </div>
-        </header> --}}
+        </header>
 
         <main id="site-main" class="site-main">
             <div id="swup" class="transition-fade">
@@ -96,10 +65,11 @@
         </main>
 
         {{!-- The footer at the very bottom of the screen --}}
-        <footer class="site-foot has-text-centered">
-            <h1 class="is-size-7"> &copy; Copyright QuikPath </h1>
+        <footer class="site-foot">
+            &copy; {{date format="YYYY"}} <a href="{{@site.url}}">{{@site.title}}</a> &mdash; Published with <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
         </footer>
 
+    </div>
 
     {{!-- The big email subscribe modal content --}}
     {{#if @labs.subscribers}}

@@ -19,9 +19,6 @@
         "test:ci": "gscan --fatal --verbose .",
         "pretest": "gulp build",
         "preship": "yarn test",
-        "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
-        "css-watch": "npm run css-build -- --watch",
-        "start": "npm run css-watch",
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
     },
     "author": {
@@ -82,9 +79,5 @@
                 "width": 2000
             }
         }
-    },
-    "dependencies": {
-        "bulma": "^0.8.0",
-        "node-sass": "^4.13.0"
     }
 }
