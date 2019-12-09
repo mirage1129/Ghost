@@ -5,20 +5,20 @@
     <article class="post-content {{post_class}} {{#unless feature_image}}no-image{{/unless}}">
 
         <header class="post-content-header">
-            <h1 class="post-content-title">{{title}}</h1>
+            <h1 class="post-content-title is-size-2 ">{{title}}</h1>
         </header>
 
-        {{#if custom_excerpt}}
-            <p class="post-content-excerpt">{{custom_excerpt}}</p>
-        {{/if}}
+        {{!-- {{#if custom_excerpt}}
+            <p class="post-content-excerpt is-size-4">{{custom_excerpt}}</p>
+        {{/if}} --}}
 
-        {{#if feature_image}}
+        {{!-- {{#if feature_image}}
         <div class="post-content-image">
             <img class="kg-image" src="{{feature_image}}" alt="{{title}}" />
         </div>
-        {{/if}}
+        {{/if}} --}}
 
-        <div class="post-content-body">
+        <div class="post-content-body is-size-5">
             {{content}}
         </div>
 
