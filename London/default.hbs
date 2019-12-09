@@ -22,10 +22,45 @@
 
 </head>
 <body class="{{body_class}}">
+  <nav class="MainMenu navbar is-fixed-top">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="mrs_food_logo.svg" alt="Mrs. Food" height="30" />
+      </a>
+      <div class="navbar-burger burger" data-target="main-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
 
+    <div class="navbar-menu" id="main-menu">
+      <div class="navbar-start">
+
+      </div>
+    </div> 
+
+      <a class="navbar-item" href="https://www.quikpath.io/">
+        QuikPath
+      </a>
+
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button header-button" href="#">
+              {{!-- <span>Subscribe</span> --}}
+              Subscribe
+            </a>
+          </p>
+        </div>
+      </div>
+
+ </nav>
+
+    <img src="bgpic.png" alt="" />
     <div class="site-wrapper">
 
-        <header class="site-head">
+        {{!-- <header class="site-head">
             <div class="site-head-container">
                 <a class="nav-burger" href="#">
                     <div class="hamburger hamburger--collapse" aria-label="Menu" role="button" aria-controls="navigation">
@@ -56,7 +91,7 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </header> --}}
 
         <main id="site-main" class="site-main">
             <div id="swup" class="transition-fade">

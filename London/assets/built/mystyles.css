@@ -7111,34 +7111,6 @@ label.panel-block {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease; }
 
-.navbar-item {
-  color: #9849A5; }
-
-.subscribe-button {
-  background: linear-gradient(150deg, #6222b5 15%, #9849A5 50%, #c410e0 94%);
-  font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  border-radius: 4px;
-  letter-spacing: .03em;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  padding: 0 14px;
-  color: white; }
-
-.header-button {
-  font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform: uppercase;
-  font-size: 16px;
-  height: 35px;
-  line-height: 35px;
-  font-weight: 500;
-  border-radius: 4px;
-  letter-spacing: .03em;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  padding: 0 14px;
-  color: white;
-  background: linear-gradient(150deg, #6222b5 15%, #9849A5 50%, #c410e0 94%); }
-
 .post-feed {
   display: flex;
   flex-wrap: wrap; }
@@ -7382,3 +7354,31 @@ label.panel-block {
   font-weight: bold;
   text-decoration: none !important;
   box-shadow: none !important; }
+
+.navbar-item {
+  color: #9849A5; }
+
+.subscribe-button {
+  background: linear-gradient(150deg, #6222b5 15%, #9849A5 50%, #c410e0 94%);
+  font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: .03em;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 0 14px;
+  color: white; }
+
+.header-button {
+  font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  height: 35px;
+  line-height: 35px;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: .03em;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 0 14px;
+  color: white;
+  background: linear-gradient(150deg, #6222b5 15%, #9849A5 50%, #c410e0 94%); }

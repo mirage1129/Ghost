@@ -1,6 +1,6 @@
 ## About
 
-- Come into themes folder
+- Come into themes folder (meraj folder instead?)
 - Open Code
 - Term: move to themes/Meraj
     - Run npm start
