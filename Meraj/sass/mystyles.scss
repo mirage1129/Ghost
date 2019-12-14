@@ -358,11 +358,15 @@ color: white;
 }
 
 .hero-title {
-    font-size: 65px;
+    font-size: 60px;
 }
 
 .hero-subtitle {
     font-size: 35px;
+}
+
+.homebutton {
+    display:none;
 }
 
 @media (max-width: 1600px) {
@@ -382,5 +386,9 @@ color: white;
 
     .hero-subtitle {
         font-size: 20px;
+    }
+
+    .homebutton {
+        display:inline-block;
     }
 }

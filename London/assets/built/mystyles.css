@@ -7398,10 +7398,13 @@ label.panel-block {
   display: inline-block; }
 
 .hero-title {
-  font-size: 65px; }
+  font-size: 60px; }
 
 .hero-subtitle {
   font-size: 35px; }
+
+.homebutton {
+  display: none; }
 
 @media (max-width: 1600px) {
   .hero-title {
@@ -7413,4 +7416,6 @@ label.panel-block {
   .hero-title {
     font-size: 40px; }
   .hero-subtitle {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .homebutton {
+    display: inline-block; } }
